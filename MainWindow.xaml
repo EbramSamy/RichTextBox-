@@ -1,0 +1,11 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Height="350" Width="525" WindowState="Maximized" WindowStyle="None" Title="twitter">
+    <Grid >
+        <Grid Name="grid"  Margin="2"  MouseLeave="appBar_MouseLeave" MouseEnter="appBar_MouseEnter" />
+        
+        
+        <ContentControl x:Name="uPAppBar" Height="80"  HorizontalAlignment="Stretch" VerticalAlignment="Top" />
+    </Grid>
+</Window>

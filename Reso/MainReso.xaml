@@ -1,0 +1,342 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="GeneralButton" TargetType="Button">
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" 
+                  CornerRadius="5" 
+                  BorderThickness="2" 
+                  Background="#FFE5F2F7"  
+                  BorderBrush="#FFC657"
+                  RenderTransformOrigin="0.5,0.5">
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                HorizontalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#FFE5F2F7" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                            <Setter Property="Foreground" Value="#B22222"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="GeneralButtonG" TargetType="Button">
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" 
+                  CornerRadius="5" 
+                  BorderThickness="2" 
+                  Background="#FF65BF9E"  
+                  BorderBrush="#FF7EE2A7"
+                  RenderTransformOrigin="0.5,0.5">
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                HorizontalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                            <Setter Property="Foreground" Value="#B22222"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="GeneralButtonY" TargetType="Button">
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" 
+                  CornerRadius="5" 
+                  BorderThickness="2" 
+                  Background="#FFE79B21"  
+                  BorderBrush="#FFEEC493"
+                  RenderTransformOrigin="0.5,0.5">
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                HorizontalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                            <Setter Property="Foreground" Value="#B22222"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="GeneralButtonR" TargetType="Button">
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" 
+                  CornerRadius="5" 
+                  BorderThickness="2" 
+                  Background="#FF7A210F"  
+                  BorderBrush="#FFCF3B5D"
+                  RenderTransformOrigin="0.5,0.5">
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                HorizontalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#B22222" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#B22222" />
+                            <Setter Property="Foreground" Value="#B22222"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="GB" TargetType="Button">
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" 
+                  
+                  Background="{TemplateBinding Background}"
+                  >
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                HorizontalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#FDB831" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#FDB831" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#FFE5F2F7" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#FFE5F2F7" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#FDB831" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#FFE5F2F7" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#FDB831" />
+                            <Setter Property="Foreground" Value="#FFE5F2F7"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Style x:Key="EmptyButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="#00000000"/>
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+    </Style>
+
+    <Style  x:Key="ButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="#00000000"/>
+        <Setter Property="BorderBrush" Value="#00000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Name="Border" CornerRadius="2" BorderThickness="1"
+                    Background="#00000000"
+                    BorderBrush="#00000000">
+                        <ContentPresenter Margin="2" 
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Center" 
+                                 RecognizesAccessKey="True"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#8B0000" />
+                        </Trigger>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#8B0000" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#8B0000" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#8B0000" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#8B0000" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" 
+                          Property="Background" Value="#8B0000" />
+                            <Setter TargetName="Border" 
+                          Property="BorderBrush" Value="#8B0000" />
+                            <Setter Property="Foreground" Value="#8B0000"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
