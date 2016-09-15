@@ -49,6 +49,8 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="WpfPageTransitions">
       <HintPath>..\..\WpfPageTransitions.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
   <ItemGroup>
